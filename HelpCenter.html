@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center</title>
+    <link rel="stylesheet" href="CSS/FlexBox.css" />
+    <link rel="stylesheet" href="CSS/Main.css" />
+    <link rel="stylesheet" href="CSS/TextEdit.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .rectangle img {
+        position: absolute;
+        top: 19%;
+        right: 2.5%;
+        bottom: 2%;
+        width: 60%;
+        height: 70%;
+        border-radius: 3%;
+        border: #000000 solid 1px;
+      }
+      .first-text {
+        font-size: 60px;
+        position: absolute;
+        letter-spacing: 7.5px;
+        top: 3%;
+        left: 2%;
+        right: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        color: #04387d;
+      }
+      .second-text {
+        font-size: 50px;
+        position: absolute;
+        top: 14%;
+        left: 3.5%;
+        right: 6.3%;
+        text-align: justify;
+        letter-spacing: 3px;
+        color: #04387d;
+        margin-bottom: 10%;
+      }
+      .third-text {
+        font-size: 34px;
+        position: absolute;
+        top: 25%;
+        left: 3.5%;
+        right: 3%;
+        text-align: justify;
+        letter-spacing: 2px;
+        color: #04387d;
+        width: 30%;
+        margin-top: 5px;
+      }
+      .third-text a {
+        font-weight: 900;
+      }
+      .help-button {
+        background-color: darkblue;
+      }
+      @media only screen and (max-width: 800px) and (min-width: 300px) {
+        .first-text {
+          font-size: 40px;
+          align-self: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="bar-header">
+      <h1 class="title">Adamson University Navigation Website (AduNavWeb)</h1>
+      <div class="logo-header">
+        <a href="index.html">
+          <div class="logo-header">
+            <img src="Photos/AdamsonLogo.png" alt="logo" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flexcontainer">
+      <div class="rectangle">
+        <div class="rectangle-header">
+          <div>
+            <nav class="navigation">
+              <a href="index.html" class="navigation-link">Home</a>
+              <a href="ExploreCampus.html" class="navigation-link">AduNavWeb</a>
+              <a href="AboutUs.html" class="navigation-link">About Us</a>
+
+              <a href="HelpCenter.html" class="navigation-link help-button"
+                >User Guide</a
+              >
+            </nav>
+          </div>
+        </div>
+        <h1 class="first-text">Welcome to the AduNavWeb Help Center!</h1>
+        <h2 class="second-text">MAP INSTRUCTIONS</h2>
+        <h3 class="third-text">
+          <p>
+            <strong>Step 1:</strong> Go to AdUNavWeb section in the top menu
+          </p>
+          <p>
+            <strong>Step 2:</strong> Click ‘View full map’ on the lower left
+            side of your screen
+          </p>
+          <p>
+            <strong>Step 3:</strong> Search your destined location using the
+            search bar
+          </p>
+          <p>
+            <strong>Step 4:</strong> Move your fingermouse across the screen to
+            navigate the map
+          </p>
+        </h3>
+        <img src="Photos/Tutorial.png" alt="Tutorial" />
+        <div class="rectangle-footer"></div>
+      </div>
+    </div>
+  </body>
+</html>

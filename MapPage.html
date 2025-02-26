@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AduNavWeb</title>
+    <link rel="stylesheet" href="CSS/FlexBox.css" />
+    <link rel="stylesheet" href="CSS/Main.css" />
+    <link rel="stylesheet" href="CSS/TextEdit.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .mappedin {
+        width: 99.75%;
+        height: 100%;
+        position: sticky;
+        bottom: 5px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="bar-header">
+      <h1 class="title">Adamson University Navigation Website (AduNavWeb)</h1>
+      <div class="logo-header">
+        <a href="index.html">
+          <div class="logo-header">
+            <img src="Photos/AdamsonLogo.png" alt="logo" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flexcontainer">
+      <div class="rectangle">
+        <div class="rectangle-header">
+          <div>
+            <nav class="navigation">
+              <a href="index.html" class="navigation-link">Home</a>
+              <a href="ExploreCampus.html" class="navigation-link">AduNavWeb</a>
+              <a href="AboutUs.html" class="navigation-link">About Us</a>
+
+              <a href="HelpCenter.html" class="navigation-link">User Guide</a>
+            </nav>
+          </div>
+        </div>
+        <iframe
+          src="https://app.mappedin.com/map/671b493160bdf0000b4edfd8?floor=m_1c5a25a6cbbe76a9"
+          class="mappedin"
+          title="Mappedin"
+        ></iframe>
+        <div class="rectangle-footer"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.title {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+  .title {
+    font-size: 18px;
+    position: static;
+    padding: 10px;
+  }
+}
