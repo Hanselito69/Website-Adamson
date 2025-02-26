@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <link rel="stylesheet" href="CSS/FlexBox.css" />
+    <link rel="stylesheet" href="CSS/Main.css" />
+    <link rel="stylesheet" href="CSS/TextEdit.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        color: darkblue;
+        font-size: 60px;
+        margin-bottom: 1%;
+        margin-right: 3%;
+        margin-top: 1%;
+        margin-left: 2%;
+        align-self: flex-end;
+      }
+      .first-text {
+        font-size: 32px;
+        width: 29%;
+        text-align: justify;
+        margin-bottom: .5%;
+        margin-top: .1%;
+        align-self: flex-end;
+        margin-right: 3%;
+        word-spacing: 10px;
+      }
+      .second-text {
+        width: 22%;
+        text-align: justify;
+        font-size: 35px;
+        margin-top: .1%;
+        margin-bottom: .5%;
+        align-self: flex-end;
+        margin-right: 7.3%;
+        word-spacing: 10px; 
+      }
+      .mappedin{
+        width: 58%;
+        height: 73%;
+        position: absolute;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 2%;
+        border-radius: 2%;
+      }
+      .link-to-fullmap{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 4%;
+        bottom: 7.5%;
+        position: absolute;
+      }
+      .link-to-fullmap:hover{
+        color: rgb(13, 100, 172);
+      }
+      .button-Adu{
+        background-color: darkblue;
+      }
+
+    </style>
+  <body>
+            <div class="background"></div>
+    <div class="bar-header">
+      <h1 class="title">Adamson University Navigation Website (AduNavWeb)</h1>
+      <div class="logo-header">
+        <a href="index.html">
+          <div class="logo-header">
+            <img src="Photos/AdamsonLogo.png" alt="logo" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flexcontainer">
+      <div class="rectangle">
+        <div class="rectangle-header">
+          <div>
+            <nav class="navigation">
+              <a href="index.html" class="navigation-link">Home</a>
+              <a href="ExploreCampus.html" class="navigation-link button-Adu">AduNavWeb</a>
+              <a href="AboutUs.html" class="navigation-link">About Us</a>
+              
+              <a href="HelpCenter.html" class="navigation-link">User Guide</a>
+            </nav>
+          </div>
+        </div>
+        <iframe src="https://app.mappedin.com/map/671b493160bdf0000b4edfd8?floor=m_1c5a25a6cbbe76a9" class="mappedin" title="Mappedin"></iframe>
+      <h2 class="Explore-title">Explore the Campus</h2>
+      <p class="first-text">
+        <b>Welcome to the Adamson University Navigation Website!</b
+        ><br />
+        Adamson University's main campus is located at 900 San Marcelino Street, Ermita, Manila. It has seven main buildings for different academic and student needs:
+      </p>
+      <ol class="second-text">
+        <li>SV Building</li>
+        <li>ST Building</li>
+        <li>OZ Building</li>
+        <li>CT Building</li>
+        <li>CS Building</li>
+        <li>FRC Building</li>
+        <li>JP Grounds</li>
+      </ol>
+        <a class="link-to-fullmap" href="MapPage.html" >View Full Map</a>
+            <div class="rectangle-footer"></div>
+        </div>
+  </body>
+</html>
